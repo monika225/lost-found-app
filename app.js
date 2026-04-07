@@ -7,7 +7,9 @@ function showLost() {
       output += `
         <div style="background:white;padding:10px;margin:10px;border-radius:5px;">
           <b>${i.name}</b><br>
-          📍 ${i.location}
+          📍 ${i.location}<br>
+          📞 ${i.phone}<br>
+          ✉️ ${i.email}
         </div>
       `;
     });
@@ -25,7 +27,9 @@ function showFound() {
       output += `
         <div style="background:white;padding:10px;margin:10px;border-radius:5px;">
           <b>${i.name}</b><br>
-          📍 ${i.location}
+          📍 ${i.location}<br>
+          📞 ${i.phone}<br>
+          ✉️ ${i.email}
         </div>
       `;
     });
